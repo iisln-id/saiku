@@ -7,7 +7,7 @@
 		<version>2.6-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.saiku</groupId>
+	<groupId>com.iisln</groupId>
 	<artifactId>saiku-web-tests</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
@@ -21,7 +21,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.saiku</groupId>
+			<groupId>com.iisln</groupId>
 			<artifactId>saiku-webapp</artifactId>
 			<version>${project.version}</version>
 			<type>war</type>
@@ -162,7 +162,7 @@
 					<deployables>
 						<deployable>
 							<type>war</type>
-							<groupId>org.saiku</groupId>
+							<groupId>com.iisln</groupId>
 							<artifactId>saiku-webapp</artifactId>
 							<properties>
 								<context>saiku</context>
@@ -220,7 +220,7 @@
 							<deployables>
 								<deployable>
 									<type>war</type>
-									<groupId>org.saiku</groupId>
+									<groupId>com.iisln</groupId>
 									<artifactId>saiku-webapp</artifactId>
 									<properties>
 										<context>saiku</context>
