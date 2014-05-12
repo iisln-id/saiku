@@ -54,7 +54,7 @@ public class RestUtil {
 			        width = rs.getMetaData().getColumnCount();
 			        header = new Cell[width];
 			        for (int s = 0; s < width; s++) {
-			            header[s] = new Cell(rs.getMetaData().getColumnName(s + 1),Cell.Type.COLUMN_HEADER);
+			            header[s] = new Cell(rs.getMetaData().getColumnLabel(s + 1),Cell.Type.COLUMN_HEADER);
 			        }
 			        if (width > 0) {
 			            rows.add(header);
